@@ -14,7 +14,7 @@ Checklist of Lessons
 - Ex10  : Done
 - Ex11  : Done
 - Ex12  : Done
-- Ex13  :
-- Ex14  :
-- Ex15  :
-- Next  :
+- Ex13  : Done
+- Ex14  : Done
+- Ex15  : Done
+- Next  : Done
