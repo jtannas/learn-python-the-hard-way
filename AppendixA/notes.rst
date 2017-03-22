@@ -27,4 +27,10 @@ env         look at your environment
 echo        print some arguments
 export      export/set an environment variable
 exit        exit the shell
-sudo        ** DANGER ** become super user root
+sudo        ** DANGER ** become super user root, aka. Run the command with superuser permission
+rm          removes a file, -f for forcibly, -r for recursively, -i for information
+chmod       changes the file mode bits (aka. the file permission)
+chown       changes the owner of the file
+xargs       breaks a long list of arguments into smaller portion.
+                Useful when piping the results of one command into another
+                eg. > find /path -type f -print | xargs rm
