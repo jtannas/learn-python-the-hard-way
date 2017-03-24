@@ -1,1 +1,1 @@
-mkvirtualenv        # Optional, manager for virtual environments - env name: learn
+mkvirtualenv        # Optional, manager for virtual environments - venv name: learn
