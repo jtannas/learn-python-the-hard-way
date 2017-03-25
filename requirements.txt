@@ -1,1 +1,2 @@
 mkvirtualenv        # Optional, manager for virtual environments - venv name: learn
+yapf                # Optional, python formatting tool to help comply with PEP8

@@ -1,4 +1,4 @@
-''' Exercise 23: Read Some Code
+""" Exercise 23: Read Some Code
 
 Visited:    https://wiki.python.org/moin/SimplePrograms
 Learned:    A lot, though most of it is only applicable in Python 3
@@ -13,6 +13,4 @@ Confused:   20 lines: yield
 Visited:    http://code.activestate.com/recipes/langs/python/?query_start=1
 Learned:    Some programmer like to chop letters out of their variable names to save 14 milliseconds in typing tim
             This is an atrocity and kills many puppies.
-
-            
-'''
+"""

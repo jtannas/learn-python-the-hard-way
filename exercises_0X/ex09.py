@@ -1,4 +1,6 @@
 #!/usr/bin/python2.7
+# pylint: disable = C0103, W0105
+"""Exercise 9: Printing, Printing, Printing."""
 
 # Here's some new strange stuff, remember to type it exactly.
 
@@ -15,8 +17,9 @@ We'll be able to type as much as we like.
 Even 4 lines if we want, or 5, or 6.
 """
 
-''' Study Guide:
+# End of Exercise.
+""" Study Guide:
 
-Q1: Write down your mistakes, then try not to make them again
-A1: no mistakes this time...
-'''
+Q1: Write down your mistakes, then try not to make them again.
+A1: No mistakes this time :-).
+"""

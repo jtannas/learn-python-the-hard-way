@@ -1,9 +1,11 @@
 #!/usr/bin/python2.7
+# pylint: disable = C0103, W0105
+"""Exercise 14: Prompting and Passing."""
 
 from sys import argv
 
-script, user_name, user_computer = argv
-prompt = 'DON\'T LIE TO THE ROBOT, HUMAN: '
+script, user_name, user_computer = argv  # pylint: disable=W0632
+prompt = "DON'T LIE TO THE ROBOT, HUMAN: "
 
 print "Hi %s, I'm %s script." % (user_name, script)
 print "I'd like to ask you a few questions."
@@ -24,9 +26,8 @@ You live in %r. Not sure where that is.
 And you have a %r computer. Nice.
 """ % (likes, lives, computer)
 
-
-''' Study Drills
-
+# End of Exercise.
+""" Study Drills
 Q1: Find out what Zork and Adventure were. Try to find a copy and play it.
 A1: They're basically compterized D&D. Zork is text based, adventure is GUI.
     Zork: http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork
@@ -35,9 +36,11 @@ A1: They're basically compterized D&D. Zork is text based, adventure is GUI.
 Q2: Change the prompt variable to something else entirely.
 A2: Changed from '> ' to "DON'T LIE TO THE ROBOT, HUMAN:"
 
-Q3: Add another argument and use it in your script, the same way you did in the previous exercise with first, second = ARGV.
+Q3: Add another argument and use it in your script, the same way you
+    did in the previous exercise with first, second = ARGV.
 A3: Done
 
-Q4: Make sure you understand how I combined a """ style multiline string with the % format activator as the last print.
+Q4: Make sure you understand how I combined a \""" style multiline
+    string with the % format activator as the last print.
 A4: Done, it's really just a different way of demarking the limits of a string.
-'''
+"""
