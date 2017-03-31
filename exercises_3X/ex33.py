@@ -21,6 +21,7 @@ def list_numbers(limit, start=0, increment=1):
 
     return numbers
     """
+    # After study drill 5
     return range(start, limit, increment)
 
 
