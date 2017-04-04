@@ -1,0 +1,8 @@
+#!/usr/bin/python2.7
+"""Exercise 46 Quiz q4 script"""
+
+from ex46.utils import greet2
+
+greet2()
+print "Running ex46 bin script"
+print 3 + 4

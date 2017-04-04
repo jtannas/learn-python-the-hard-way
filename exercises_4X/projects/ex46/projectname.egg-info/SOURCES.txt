@@ -1,0 +1,9 @@
+setup.py
+bin/ex46_script.py
+ex46/__init__.py
+ex46/utils.py
+projectname.egg-info/PKG-INFO
+projectname.egg-info/SOURCES.txt
+projectname.egg-info/dependency_links.txt
+projectname.egg-info/requires.txt
+projectname.egg-info/top_level.txt
