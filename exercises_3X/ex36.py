@@ -22,8 +22,6 @@ from textwrap import TextWrapper, dedent
 def engine():
     """The engine of the game, for running the appropriate section.
 
-    The engine design is inspired by the 'argv' style of command line
-    function calls.
     The engine loops continually while it has information to operate
     on. This information is stored in the game_state variable - a dict
     of the current game information. The 'next' key/value pair is the
