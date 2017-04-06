@@ -1,4 +1,4 @@
 mkvirtualenv        # Optional, manager for virtual environments - venv name: learn
 yapf                # Optional, python formatting tool to help comply with PEP8
 nose                # Automated Testing
-distribute
+distribute          # package dictribution helper - similar to setuptools

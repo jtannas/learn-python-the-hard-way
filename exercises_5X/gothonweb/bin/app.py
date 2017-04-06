@@ -11,17 +11,21 @@ However, if you did this:
 
 import web
 
-urls = ('/', 'index')
+urls = ('/hello', 'Index')
 
 app = web.application(urls, globals())
 
 # Create a 'render' object that knows how to load .html files out of templates/
-render = web.template.render('templates/')
+render = web.template.render('templates/', base="layout")
 
 
-class index:
+class Index(object):
     def GET(self):
-        greeting = "Hello World"
+        return render.hello_form()
+
+    def POST(self):
+        form = web.input(greet="Hello", name="Nobody")
+        greeting = "%s, %s" % (form.greet, form.name)
         # render the index.html file using the 'render' object
         return render.index(greeting=greeting)
 
